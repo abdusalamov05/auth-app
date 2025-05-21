@@ -3,7 +3,7 @@
 import { useTheme } from "next-themes";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
-import { LoginSchema, LoginSchemaType } from "@/features/auth";
+import { LoginSchema, LoginSchemaType } from "@/features/auth/schemes";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from "sonner";
 import { AuthWrapper } from "./authWrapper";

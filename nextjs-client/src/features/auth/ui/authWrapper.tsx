@@ -8,7 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/shared/ui";
-import { AuthSocial } from "@/features/auth";
+import { AuthSocial } from "./authSocial";
 import Link from "next/link";
 
 type AuthWrapperProps = {
