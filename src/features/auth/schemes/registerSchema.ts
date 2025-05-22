@@ -6,8 +6,8 @@ export const RegisterSchema = z
       .string({ required_error: "Имя обязательно" })
       .min(1, { message: "Имя обязательно" }),
     email: z
-      .string({ required_error: "Email обязателен" })
-      .min(1, { message: "Email обязателен" })
+      .string({ required_error: "Электронная почта обязательна" })
+      .min(1, { message: "Электронная почта обязательна" })
       .email({ message: "Введите корректный адрес электронной почты" }),
     password: z
       .string({ required_error: "Пароль обязателен" })
